@@ -7,7 +7,7 @@ export default function Home() {
       <Header>
         <div className="mb-2">
           <h1 className="text-white text-3xl font-semibold">welcome back</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 mt-4 ">
             <ListItem
               image="/images/liked.png"
               name="Liked Songs"
@@ -20,9 +20,7 @@ export default function Home() {
         <div className="flex justify-between items-center h-auto">
           <h1 className="text-white text-2xl font-semibold">Newest Songs</h1>
         </div>
-        <div className="">
-          List of songs
-        </div>
+        <div className="">List of songs</div>
       </div>
     </div>
   );
